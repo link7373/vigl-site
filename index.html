@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vancouver Island Grand Loop — The Definitive ADV Route</title>
+<meta name="description" content="The definitive overland adventure motorcycle route circumnavigating Vancouver Island. 1,700 km, 18 stages, 50% paved, 50% dirt.">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="content-wrapper">
+
+<div class="top-bar">
+  Adventure Motorcycle Route · Vancouver Island, British Columbia · 1,700 km
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <div class="logo-emblem">
+        <span class="logo-emblem-top">VI</span>
+        <span class="logo-emblem-main">GL</span>
+      </div>
+      <div class="logo-text">
+        Vancouver Island<br>Grand Loop
+        <small>Est. 2015 · ADV Route</small>
+      </div>
+    </a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="stages.html">Stages</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <!-- GPX DOWNLOAD LINK -->
+    <a class="nav-cta" href="https://drive.google.com/file/d/1goVexVSA3K8DlWhQnRS8QIDgUwJUykQt/view?usp=sharing">Get the GPX →</a>
+  </div>
+</nav>
+
+<!-- ====== HERO ====== -->
+<section style="background:var(--bg-dark);color:var(--bg);padding:0;position:relative;overflow:hidden;">
+  <div style="position:absolute;top:0;right:0;width:40%;height:100%;background:repeating-linear-gradient(-45deg,transparent,transparent 20px,rgba(196,64,42,0.06) 20px,rgba(196,64,42,0.06) 40px);pointer-events:none;"></div>
+  <div style="max-width:1200px;margin:0 auto;padding:5rem 2rem;display:grid;grid-template-columns:1.2fr 1fr;gap:4rem;align-items:center;position:relative;">
+    <div>
+      <div class="page-hero-badge">★ The Definitive Route</div>
+      <h1 style="font-family:'Archivo Black',sans-serif;font-size:clamp(3rem,7vw,5.5rem);line-height:0.95;text-transform:uppercase;margin-bottom:1.5rem;">
+        Vancouver Island
+        <span style="color:var(--mustard);display:block;">Grand Loop</span>
+      </h1>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:500;color:rgba(250,246,239,0.6);letter-spacing:0.05em;margin-bottom:2rem;text-transform:uppercase;">
+        The ultimate overland ADV route around the island
+      </div>
+      <p style="font-size:1.05rem;color:rgba(250,246,239,0.7);line-height:1.8;max-width:500px;margin-bottom:2.5rem;">
+        The VIGL stitches together the best roads Vancouver Island has to offer — scenic coastal highways,
+        logging roads, hidden gems, and challenging backcountry gravel. Preference has been given to avoid
+        the main highways in favour of back roads featuring scenic vistas and challenging terrain.
+      </p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+        <!-- GPX DOWNLOAD LINK -->
+        <a class="btn-red" href="https://drive.google.com/file/d/1goVexVSA3K8DlWhQnRS8QIDgUwJUykQt/view?usp=sharing">↓ Download GPX Track</a>
+        <!-- GOOGLE MAP LINK -->
+        <a class="btn-ghost" href="https://goo.gl/maps/XFhhQYo5oGz">View Interactive Map</a>
+      </div>
+    </div>
+    <div style="background:rgba(250,246,239,0.04);border:1px solid rgba(250,246,239,0.1);padding:2.5rem;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.2em;color:rgba(250,246,239,0.4);margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid rgba(250,246,239,0.1);">
+        Route Specifications
+      </div>
+      <div style="margin-bottom:2rem;">
+        <div style="font-family:'Archivo Black',sans-serif;font-size:2.5rem;color:var(--mustard);line-height:1;">1,700</div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(250,246,239,0.4);margin-top:0.2rem;">Total Kilometers</div>
+      </div>
+      <div style="margin-bottom:2rem;">
+        <div style="font-family:'Archivo Black',sans-serif;font-size:2.5rem;color:var(--mustard);line-height:1;">18</div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(250,246,239,0.4);margin-top:0.2rem;">Stages</div>
+      </div>
+      <div style="margin-bottom:2rem;">
+        <div style="font-family:'Archivo Black',sans-serif;font-size:2.5rem;color:var(--mustard);line-height:1;">5–8</div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(250,246,239,0.4);margin-top:0.2rem;">Days to Complete</div>
+      </div>
+      <div style="display:flex;gap:0;margin-top:1.5rem;">
+        <div style="flex:1;padding:1rem;text-align:center;background:var(--olive);">
+          <div style="font-family:'Archivo Black',sans-serif;font-size:1.5rem;line-height:1;">50%</div>
+          <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;">Paved</div>
+        </div>
+        <div style="flex:1;padding:1rem;text-align:center;background:var(--mustard);color:var(--bg-dark);">
+          <div style="font-family:'Archivo Black',sans-serif;font-size:1.5rem;line-height:1;">50%</div>
+          <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;">Dirt / Gravel</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== ROUTE MAP ====== -->
+<section class="section" style="text-align:center;">
+  <h2 class="section-title" style="margin-bottom:1.5rem;">The Route</h2>
+  <p style="color:var(--text-light);font-size:0.95rem;margin-bottom:2rem;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.7;">
+    1,700 km circumnavigating Vancouver Island. Click the map to view full size.
+  </p>
+  <!-- ROUTE MAP IMAGE — Replace src with your route map image file (e.g., "images/vigl-route-map.jpg") -->
+  <a href="images/vigl-route-map.jpg" onclick="document.getElementById('lightbox').classList.add('active');return false;">
+    <img class="route-map-thumb" style="margin:0 auto;" src="images/vigl-route-map.jpg"
+         alt="Vancouver Island Grand Loop route map showing all 18 stages">
+  </a>
+  <div class="route-map-caption">Click to enlarge · Green = Easy · Orange = Moderate · Red = Challenging</div>
+</section>
+
+<!-- Lightbox for route map -->
+<div id="lightbox" class="lightbox-overlay" onclick="this.classList.remove('active')">
+  <img src="images/vigl-route-map.jpg" alt="Vancouver Island Grand Loop route map — full size">
+</div>
+
+<!-- ====== STAGES OVERVIEW ====== -->
+<section class="section" style="padding-top:0;">
+  <div class="section-header">
+    <h2 class="section-title"><span class="num">18</span> Stages Around the Island</h2>
+    <a class="section-link" href="stages.html">View All Stage Details →</a>
+  </div>
+  <div class="stages-table-wrap">
+  <table class="stages-table">
+    <thead>
+      <tr><th>#</th><th>Route</th><th>Surface</th></tr>
+    </thead>
+    <tbody>
+      <!-- CORRECTED SURFACE TYPES -->
+      <tr><td class="stage-num-cell">01</td><td class="stage-route-cell"><a href="stages/stage-1.html">Victoria → Shirley</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">02</td><td class="stage-route-cell"><a href="stages/stage-2.html">Shirley → Port Renfrew</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">03</td><td class="stage-route-cell"><a href="stages/stage-3.html">Port Renfrew → Lake Cowichan</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">04</td><td class="stage-route-cell"><a href="stages/stage-4.html">Lake Cowichan → Bamfield</a></td><td><span class="type-badge mixed">Mixed</span></td></tr>
+      <tr><td class="stage-num-cell">05</td><td class="stage-route-cell"><a href="stages/stage-5.html">Bamfield → Port Alberni</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">06</td><td class="stage-route-cell"><a href="stages/stage-6.html">Port Alberni → Courtenay</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">07</td><td class="stage-route-cell"><a href="stages/stage-7.html">Courtenay → Gold River</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">08</td><td class="stage-route-cell"><a href="stages/stage-8.html">Gold River → Woss</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">09</td><td class="stage-route-cell"><a href="stages/stage-9.html">Woss → Port Alice</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">10</td><td class="stage-route-cell"><a href="stages/stage-10.html">Port Alice → San Josef Bay</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">11</td><td class="stage-route-cell"><a href="stages/stage-11.html">San Josef Bay → Port Hardy</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">12</td><td class="stage-route-cell"><a href="stages/stage-12.html">Port Hardy → Telegraph Cove</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">13</td><td class="stage-route-cell"><a href="stages/stage-13.html">Telegraph Cove → Sayward</a></td><td><span class="type-badge dirt">Dirt</span></td></tr>
+      <tr><td class="stage-num-cell">14</td><td class="stage-route-cell"><a href="stages/stage-14.html">Sayward → Campbell River</a></td><td><span class="type-badge mixed">Mixed</span></td></tr>
+      <tr><td class="stage-num-cell">15</td><td class="stage-route-cell"><a href="stages/stage-15.html">Campbell River → Courtenay</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">16</td><td class="stage-route-cell"><a href="stages/stage-16.html">Courtenay → Nanaimo</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">17</td><td class="stage-route-cell"><a href="stages/stage-17.html">Nanaimo → Cowichan Bay</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+      <tr><td class="stage-num-cell">18</td><td class="stage-route-cell"><a href="stages/stage-18.html">Cowichan Bay → Victoria</a></td><td><span class="type-badge paved">Paved</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<!-- ====== INFO BANNER ====== -->
+<div class="info-banner">
+  <div class="info-banner-inner">
+    <div class="info-block">
+      <div class="info-block-title">Navigation & GPX</div>
+      <p class="info-block-text">
+        Download the full GPX file for your GPS device. Pair with the interactive
+        Google Map and the Backroads Mapbook for comprehensive navigation. Individual
+        stage files are also available in KMZ format for Google Earth.
+      </p>
+    </div>
+    <div class="info-block">
+      <div class="info-block-title">Bike Recommendations</div>
+      <p class="info-block-text">
+        An adventure motorcycle is highly recommended. Many of the roads are quite rough
+        and will be stressful on your suspension. Half the route is dirt and gravel —
+        street bikes will struggle on the northern stages.
+      </p>
+    </div>
+    <div class="info-block">
+      <div class="info-block-title">Safety & Gear</div>
+      <p class="info-block-text">
+        Carry a personal locator beacon (ResQLink or SPOT GPS), rain gear, and bear spray.
+        Cell coverage is unreliable to nonexistent on the western side.
+        Northern stages have active bear, cougar, and wolf populations.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ====== WARNING ====== -->
+<div class="warning-strip">
+  <div class="warning-inner">
+    <div class="warning-label">⚠ Ride Responsibly</div>
+    <p class="warning-text">
+      VIGL maps and stage descriptions are intended as an overview of the route rather than turn-by-turn
+      instructions. In addition to Google Maps, it's recommended to have an accurate GPS, a copy of the
+      Backroads Mapbook, a personal locator beacon and to know how to use them. Conditions on Vancouver Island can shift from
+      sun to downpour in as little as 10 minutes and may render parts of the route impassable.
+      Please take care and be ready to turn back if the situation becomes unsafe.
+    </p>
+  </div>
+</div>
+
+<!-- ====== DONATE ====== -->
+<section class="section" style="text-align:center;">
+  <h2 class="section-title" style="margin-bottom:1rem;">Support the VIGL</h2>
+  <p style="max-width:500px;margin:0 auto 1.5rem;color:var(--text-light);font-size:0.95rem;line-height:1.7;">
+    If you've enjoyed the route, consider donating to help maintain the Vancouver Island Grand Loop.
+  </p>
+  <!-- PAYPAL DONATION LINK -->
+  <a class="btn-red" href="https://www.paypal.me/JColinBeck">Donate via PayPal</a>
+  <p style="margin-top:1.5rem;color:var(--text-light);font-size:0.85rem;">
+    Have feedback on road conditions or want to report a closure?
+    <a href="mailto:jcolinbeck@gmail.com">Contact me</a>.
+  </p>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <a class="nav-logo" href="index.html" style="text-decoration:none;">
+        <div class="logo-emblem light">
+          <span class="logo-emblem-top">VI</span>
+          <span class="logo-emblem-main">GL</span>
+        </div>
+        <div class="logo-text light">
+          Vancouver Island<br>Grand Loop
+          <small>Est. 2015 · ADV Route</small>
+        </div>
+      </a>
+      <a class="footer-donate-btn" href="https://www.paypal.me/JColinBeck">Support the VIGL — Donate</a>
+    </div>
+    <div class="footer-links-group">
+      <div class="footer-col">
+        <div class="footer-col-title">Route</div>
+        <a href="stages.html">All 18 Stages</a>
+        <a href="https://goo.gl/maps/XFhhQYo5oGz">Interactive Map</a>
+        <a href="https://drive.google.com/file/d/1goVexVSA3K8DlWhQnRS8QIDgUwJUykQt/view?usp=sharing">Download GPX</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Info</div>
+        <a href="about.html">About the VIGL</a>
+        <a href="about.html#friends">Friends of VIGL</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Connect</div>
+        <a href="mailto:jcolinbeck@gmail.com">Contact</a>
+        <a href="mailto:jcolinbeck@gmail.com">Report Road Conditions</a>
+        <a href="https://www.paypal.me/JColinBeck">PayPal Donate</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">Vancouver Island Grand Loop · Vancouver Island, BC, Canada</div>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:\\\\Users\\\\link7\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Claude-VIGL\\\\tasks\"\" 2>/dev/null || echo \"no tasks dir \")",
+      "WebFetch(domain:www.vancouverislandgrandloop.com)",
+      "Bash(git --version)",
+      "Bash(gh:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
