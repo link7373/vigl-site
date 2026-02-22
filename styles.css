@@ -796,10 +796,6 @@ footer {
   .section-header { flex-direction: column; align-items: flex-start; }
   .stage-layout { grid-template-columns: 1fr; }
   .stage-sidebar { position: static; }
-  .photos-grid { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 600px) {
   .photos-grid { grid-template-columns: 1fr; }
 }
 
@@ -821,8 +817,8 @@ footer {
 
 .photos-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .photos-grid figure {
@@ -834,14 +830,8 @@ footer {
 
 .photos-grid img {
   width: 100%;
-  height: 210px;
-  object-fit: cover;
+  height: auto;
   display: block;
-  transition: transform 0.35s ease;
-}
-
-.photos-grid figure:hover img {
-  transform: scale(1.04);
 }
 
 .photos-grid figcaption {
