@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Cream background -->
+  <rect width="32" height="32" fill="#faf6ef"/>
+  <!-- Circular border matching logo-emblem -->
+  <circle cx="16" cy="16" r="14.5" fill="none" stroke="#1c1b18" stroke-width="1.8"/>
+  <!-- VI: small, dark, top -->
+  <text x="16" y="13.5"
+    font-family="Arial Black, 'Arial Bold', sans-serif"
+    font-size="7" font-weight="900"
+    text-anchor="middle"
+    fill="#1c1b18"
+    letter-spacing="1">VI</text>
+  <!-- GL: larger, red, bottom -->
+  <text x="16" y="23"
+    font-family="Arial Black, 'Arial Bold', sans-serif"
+    font-size="11" font-weight="900"
+    text-anchor="middle"
+    fill="#c4402a"
+    letter-spacing="0.5">GL</text>
+</svg>
