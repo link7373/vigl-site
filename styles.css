@@ -686,19 +686,7 @@ nav {
   margin: 1.5rem 0;
 }
 
-/* Stage photos */
-.stage-photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 0.5rem;
-  margin: 1.5rem 0;
-}
-.stage-photos img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border: 2px solid var(--border);
-}
+/* Stage photos — layout handled by .photo-strip inside */
 
 /* ====== FOOTER ====== */
 footer {
