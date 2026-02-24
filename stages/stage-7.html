@@ -19,8 +19,12 @@
 <nav>
   <div class="nav-inner">
     <a class="nav-logo" href="../index.html">
-      <div class="logo-emblem"><span class="logo-emblem-top">VI</span><span class="logo-emblem-main">GL</span></div>
-      <div class="logo-text">Vancouver Island<br>Grand Loop<small>Est. 2015 · ADV Route</small></div>
+      <svg class="nav-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+        <polygon points="100,10 190,100 100,190 10,100" fill="#c4402a"/>
+        <polyline points="28,106 60,70 78,88 100,55 122,80 150,68 172,106" fill="none" stroke="#faf6ef" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.5"/>
+        <text x="100" y="140" font-family="Archivo Black, Arial Black, sans-serif" font-size="36" font-weight="900" text-anchor="middle" fill="#faf6ef" letter-spacing="-2">VIGL</text>
+      </svg>
+      <span class="nav-logo-text">Vancouver Island<br>Grand Loop</span>
     </a>
     <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -170,9 +174,19 @@
 <footer>
   <div class="footer-inner">
     <div>
-      <a class="nav-logo" href="../index.html" style="text-decoration:none;">
-        <div class="logo-emblem light"><span class="logo-emblem-top">VI</span><span class="logo-emblem-main">GL</span></div>
-        <div class="logo-text light">Vancouver Island<br>Grand Loop<small>Est. 2015 · ADV Route</small></div>
+      <a class="footer-logo" href="../index.html">
+        <svg class="footer-lockup" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 105">
+        <g transform="translate(4,12)">
+          <polygon points="40,2 78,40 40,78 2,40" fill="#c4402a"/>
+          <polyline points="8,44 22,27 30,35 40,20 50,31 62,26 72,44" fill="none" stroke="#faf6ef" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.5"/>
+          <text x="40" y="60" font-family="Archivo Black, Arial Black, sans-serif" font-size="15" font-weight="900" text-anchor="middle" fill="#faf6ef" letter-spacing="-1">VIGL</text>
+        </g>
+        <line x1="98" y1="20" x2="98" y2="85" stroke="#faf6ef" stroke-width="1" opacity="0.2"/>
+        <text x="112" y="55" font-family="Archivo Black, Arial Black, sans-serif" font-size="46" font-weight="900" fill="#faf6ef" letter-spacing="0">VIGL</text>
+        <text x="112" y="70" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-size="11.5" font-weight="700" fill="#d4982a" letter-spacing="2.5">VANCOUVER ISLAND GRAND LOOP</text>
+        <line x1="112" y1="76" x2="356" y2="76" stroke="#d4982a" stroke-width="0.75" opacity="0.55"/>
+        <text x="112" y="90" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-size="10.5" font-weight="400" fill="#d4982a" letter-spacing="3.5">EST 2015</text>
+        </svg>
       </a>
       <a class="footer-donate-btn" href="https://www.paypal.me/JColinBeck">Support the VIGL — Donate</a>
     </div>

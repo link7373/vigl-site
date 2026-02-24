@@ -75,64 +75,42 @@ nav {
   display: flex; align-items: center; justify-content: space-between;
   height: 70px;
 }
+/* ── NAV LOGO ─────────────────────────────────────────────────── */
 .nav-logo {
-  display: flex; align-items: center; gap: 0.8rem;
+  display: flex; align-items: center; gap: 0.75rem;
   text-decoration: none;
-}
-.logo-emblem {
-  width: 44px; height: 44px;
-  border: 2.5px solid var(--bg-dark);
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  flex-direction: column;
   flex-shrink: 0;
 }
-.logo-emblem-top {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 0.55rem;
-  color: var(--bg-dark);
-  line-height: 1;
-  letter-spacing: 0.05em;
+.nav-mark {
+  width: 44px; height: 44px;
+  flex-shrink: 0;
+  display: block;
 }
-.logo-emblem-main {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 0.85rem;
-  color: var(--red);
-  line-height: 1;
-}
-.logo-text {
+.nav-logo-text {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--bg-dark);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  line-height: 1.1;
-}
-.logo-text small {
-  display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.55rem;
-  font-weight: 400;
-  color: var(--text-light);
-  letter-spacing: 0.15em;
+  line-height: 1.15;
 }
 
-/* Footer version of logo (light on dark) */
-.logo-emblem.light {
-  border-color: rgba(250, 246, 239, 0.3);
+/* ── FOOTER LOGO ──────────────────────────────────────────────── */
+.footer-logo {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1rem;
 }
-.logo-emblem.light .logo-emblem-top {
-  color: rgba(250, 246, 239, 0.7);
+.footer-lockup {
+  height: 56px;
+  width: auto;
+  display: block;
 }
-.logo-emblem.light .logo-emblem-main {
-  color: var(--mustard);
-}
-.logo-text.light {
-  color: var(--bg);
-}
-.logo-text.light small {
-  color: rgba(250, 246, 239, 0.4);
+
+@media (max-width: 600px) {
+  .nav-logo-text { display: none; }
+  .footer-lockup { height: 46px; }
 }
 
 .nav-links {
